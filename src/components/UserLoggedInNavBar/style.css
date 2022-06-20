@@ -1,0 +1,42 @@
+.navbar_container_home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #1dbeb4;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 100;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo_navbar_home {
+  padding: 0 10px;
+  max-width: 150px;
+  max-height: 75px;
+  min-width: 30px;
+  min-height: 35px;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+.container_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin-top: 15px;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,96 @@
+@mixin baseDesing {
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: column;
+}
+
+.container_form_login {
+  padding-top: 130px;
+  background-color: whitesmoke;
+}
+
+.h1-do-login {
+  color: #1dbeb4;
+  font-size: 1.5rem;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.form_login_itens {
+  @include baseDesing;
+  flex: 1;
+  min-height: 61.3vh;
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.inputs_do_login {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.label-do-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 2rem;
+}
+
+.input-do-login {
+  padding: 10px;
+  font-family: Roboto Flex, sans-serif;
+  font-size: 1rem;
+  height: 55px;
+  border-radius: 5px;
+  height: 40px;
+  background: whitesmoke;
+  box-shadow: 0px 1px 5p;
+}
+
+.info_erro_inputs {
+  color: red;
+}
+
+.container_button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-login {
+  height: 50px;
+  width: 185px;
+  margin-top: 15px;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: #1dbeb4;
+  border: none;
+  border-radius: 5px;
+}
+
+.container_redirect_to_cadastro {
+  padding-bottom: 148px;
+}
+
+.h2_do_login {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.button_redirect_to_cadastro {
+  background: whitesmoke;
+  font-size: 1rem;
+  border: none;
+  color: #1dbeb4;
+
+  padding: 11px;
+}

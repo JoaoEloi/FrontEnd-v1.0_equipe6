@@ -1,0 +1,95 @@
+@mixin baseFormat {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin textFormat {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.navbar_container_home {
+  @include baseFormat;
+  background-color: white;
+  position: fixed;
+  width: 100%!important;
+  z-index: 100;
+  justify-content: space-between;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12),
+    0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.offcanvas-end {
+  width: 303px;
+}
+
+.offcanvas-header {
+  @include baseFormat;
+  background-color: #1dbeb4;
+  padding: 5rem 1rem;
+}
+
+.offcanvas-title {
+  position: absolute;
+  left: 64.69%;
+  right: 3.3%;
+  top: 19.92%;
+  bottom: 60.25%;
+}
+
+.offcanvas-body {
+  display: flex;
+  padding: 1.5rem 1rem;
+
+  .pe-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo_navbar_home {
+  padding: 0 10px;
+  max-width: 150px;
+  max-height: 75px;
+  min-width: 30px;
+  min-height: 35px;
+  margin: 5px;
+}
+
+.div_da_logo {
+  @include baseFormat;
+}
+
+.h1_do_navbar {
+  @include baseFormat;
+  @include textFormat;
+  padding-top: 40px;
+  color:rgba(84, 87, 118, 1) ;
+}
+
+.button_da_navbar {
+  background: #ffffff;
+  border: 1px solid #1dbeb4;
+  border-radius: 5px;
+  color: #1dbeb4;
+
+  padding: 10px;
+
+  margin-right: 10px;
+  gap: 10px;
+}
+
+.logo_do_navbar {
+  padding: 0 10px;
+  max-width: 150px;
+  max-height: 75px;
+  min-width: 30px;
+  min-height: 35px;
+  margin: 5px;
+}
+.mb-3 {
+  padding-top: 10px;
+}

@@ -1,0 +1,110 @@
+.container_form_login {
+  padding-top: 150px;
+  background-color: white;
+}
+
+.h1-do-login {
+  color: #1dbeb4;
+  font-size: 1.5rem;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.form_login_itens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 70vh;
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.inputs_do_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.label-do-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 2rem;
+}
+
+.input-do-login {
+  padding: 10px;
+  font-family: Roboto Flex, sans-serif;
+  font-size: 1rem;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+}
+
+.info_erro_inputs {
+  color: red;
+}
+
+.container_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.button_info {
+  height: 50px;
+  width: 185px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 100px;
+}
+
+.button-login {
+  height: 50px;
+  width: 185px;
+  margin-top: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #1dbeb4;
+  border: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
