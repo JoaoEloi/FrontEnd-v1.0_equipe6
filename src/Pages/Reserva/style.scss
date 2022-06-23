@@ -1,0 +1,137 @@
+.header_reservation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    padding: 60px 0px 10px 0px;
+    background-color: rgba(84, 87, 118, 1);
+}
+
+.hotel_name_header, .reservation_h1{
+    padding: 0px 0px 0px 20px;
+}
+
+.back_arrow_container{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.reservation_h1{
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.hotel_name_header{
+    font-size: 24px;
+    text-align: left;
+    margin-top: -17px;
+}
+
+.back_home_icon{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.container-all-content{
+    display: flex;
+    padding: 10px 10px 0px 80px;
+    height: auto;
+    background: rgba(243, 241, 237, 1);
+}
+
+.options-time{
+    font-size: 16px;
+    color:rgba(84, 87, 118, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.select-time{
+    cursor: pointer;
+    font-size: 16px;
+    color:rgba(84, 87, 118, 1)!important;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    width: 450px;
+    border: none;
+    outline: none;
+    color: black;
+    &:hover{
+    border: rgb(94, 164, 243) 1px solid;
+  }
+  }
+
+.form_reserva_data{
+    background-color: white;
+    height: auto;
+    width: 90%;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0px 25px 25px 25px;
+    margin: 0;
+}
+
+.reserva-input{
+    background: rgba(223, 228, 234, 1);
+}
+
+.container_form_reserva{
+    width: 100%;
+}
+
+.container-card-reserva{
+    width: 50%;
+}
+
+.all-content-title{
+    font-size: 24px;
+    text-align: center;
+    text-align: left;
+    color: rgba(56, 59, 88, 1);
+}
+
+.container-date-time{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.date-picker-form{
+    width: 100%;
+}
+
+.button-reserva-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .container-all-content{
+        padding: 10px 10px 200px 40px;  
+    }
+
+    .select-time{
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .form-row{
+        flex-direction: column!important;
+    }
+
+    .select-time{
+        width: 100%;
+    }
+}

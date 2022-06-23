@@ -1,68 +1,79 @@
- .list-item-page{
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    height: 283px;
+.list-item-reserva{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     overflow: hidden;
+    height: 600px;
+    width: 359px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    align-items: center;
   }
   
-  .li-card-page {
-    width: 635px;
+  .li-card-reserva {
+    height: 817px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
     list-style: none;
     text-decoration: none!important;
+    margin-top: 62px;
   }
   
-  .img-list-page{
-    width: 100%;
-    height: 100%;
+  .card-details-title{
+    text-align: left;
   }
   
-  .title-list-page{
+  .img-list-reserva{
+    height: 200px;
+    width: 409px;
+    left: 0px;
+    top: 70px;
+  }
+  
+  .title-list-reserva{
     font-weight: bold;
     color: rgba(56, 59, 88, 1);
     text-align: left;
     font-size: 28px;
   }
   
-  .details-card{
+  .details-card-reserva{
       text-align: left;
       padding: 0;
       margin-bottom: 10px;
   }
 
-  .description-list{
+  .description-list-reserva{
     font-size: 15px;
     color: rgba(56, 59, 88, 1);
     text-align: left;
     font-weight: bold;
-    text-overflow: ellipsis;
-    display: --webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: horizontal;
   }
 
-  .details-card-item-title{
+  .details-card-item-title-reserva{
     color: rgba(56, 59, 88, 1);
     line-height: 20px;
   }
 
-  .details-card-item{
+  .details-card-item-reserva{
       list-style: none;
       font-size: 15px;
   }
 
-  .star-card{
-    color: rgba(29, 190, 180, 1);
-  }
-
-  .button-list-page{
-    margin-top: 10px;
-    width: 100%;
+  .button-list-reserva{
+    margin-left: 22px;
+    width: 80%;
     border: none;
     color: white!important;
     border-radius: 5px;
     background-color: rgba(29, 190, 180, 1)!important;
+    bottom: 10px;
+    position: absolute;
   }
 
   .icon-item-list{
@@ -74,13 +85,21 @@
     text-decoration: none!important;
   }
 
+  .card-details-title{
+    font-size: 20px;
+    color: rgba(56, 59, 88, 1);
+    text-align: left;
+    font-weight: bold;
+    align-items: left;
+    padding: 20px;
+  }
 
 @media screen and (max-width: 560px){
-  .grid-produtos-page {
+  .grid-produtos-page-reserva {
     margin-top:4em;
   }
   
-  .list-item-page{
+  .list-item-reserva{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +107,7 @@
     border-radius: 10px;
     height: auto;
   }
-  .li-card-page {
+  .li-card-reserva{
     width: 335px;
   }
   
@@ -96,7 +115,7 @@
 
 @media screen and (max-width: 300px){
 
-  .li-card-page {
+  .li-card-reserva {
     width: 235px;
   }
   

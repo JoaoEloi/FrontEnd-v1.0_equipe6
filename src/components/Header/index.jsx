@@ -30,7 +30,8 @@ export default function Header() {
   let handleDate = (value) => {
     setDate(value);
     console.log(value);
-    console.log(categoria)
+    console.log(typeof value);
+    //console.log(value[1].getMonth());
   }
 
 
@@ -86,6 +87,7 @@ export default function Header() {
                 disabledDate={beforeToday()}
                 onOk={handleDate}
                 value={date}
+
               />
               )
               }

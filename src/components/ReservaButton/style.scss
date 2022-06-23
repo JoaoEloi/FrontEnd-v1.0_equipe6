@@ -1,0 +1,13 @@
+.button-reserva{
+    border: none;
+    color: white!important;
+    border-radius: 5px;
+    background-color: rgba(29, 190, 180, 1)!important;
+    width: 500px;
+}
+
+@media screen and (max-width: 550px) {
+    .button-reserva{
+        width: 100%;
+    }
+}

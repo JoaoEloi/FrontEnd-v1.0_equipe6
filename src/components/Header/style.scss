@@ -54,6 +54,9 @@
   border: none;
   outline: none;
   color: black;
+  &:hover{
+  border: rgb(94, 164, 243) 1px solid;
+}
 }
 
 .input-form-button{
@@ -62,6 +65,10 @@
   height: 40px;
   border-radius: 5px;
   background-color: rgba(29, 190, 180, 1)!important;
+  &:hover{
+    transform: scale(0.98);
+    transition: all 250ms ease-in-out;
+  }
 }
 
 .input-form-home{
@@ -89,7 +96,7 @@
 }
 
 /* picked date align */
-.rs-picker .rs-picker-toggle {
+.date-picker-hide .rs-picker-toggle {
   position: relative;
   z-index: 5;
   padding-right: 67px;
@@ -98,9 +105,14 @@
   padding-left: 44px;
   background-color: rgba(29, 190, 180, 1)!important;
   color: var(--verde)!important;
+  visibility: hidden;
 }
 
-
+.rs-picker-toggle-value{
+  color: var(--roxo)!important;
+  font-size: 16px;
+  font-weight: bold;
+}
 .rs-btn-icon, .rs-btn-link{
   color: var(--verde)!important;
 }

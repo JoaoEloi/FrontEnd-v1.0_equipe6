@@ -27,13 +27,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <form
-        action=""
-        className="container form-categories"
-
-        //teste do git
-      >
+      <form action="" className="container form-categories">
         <h1 className="title-categories">Buscar por tipo de alojamento</h1>
+        <h3>ISSO AQUI É UM TESTE</h3>
         <div className="categories-grid">
           {dataCategory.map(({ id, image, name, hotels }) => (
             <label className="option-category" htmlFor="category">
